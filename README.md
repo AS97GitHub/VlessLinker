@@ -56,11 +56,19 @@ vless://550e8400-e29b-41d4-a716-446655440000@example.com:443?security=reality&sn
 
 ## Supported Parameters
 
-The tool handles all standard VLESS parameters:
-- Server address, port, UUID
-- Security: Reality, TLS, none  
-- Transport: TCP, WebSocket, gRPC, etc.
-- Reality settings: SNI, fingerprint, public key, short ID
+| Parameter | URL Key | Description |
+|-----------|---------|-------------|
+| UUID | - | User identifier (in URL path) |
+| Address | - | Server hostname/IP (in URL) |
+| Port | - | Server port (in URL) |
+| Flow | `flow` | Flow control (e.g., `xtls-rprx-vision`) |
+| Security | `security` | Security protocol (`reality`, `tls`, `none`) |
+| Network Type | `type` | Transport protocol (`tcp`, `ws`, `grpc`, etc.) |
+| Server Name | `sni` | TLS/Reality server name indication |
+| Fingerprint | `fp` | TLS fingerprint (`chrome`, `firefox`, etc.) |
+| Public Key | `pbk` | Reality public key |
+| Short ID | `sid` | Reality short identifier |
+| SpiderX | `spx` | Reality SpiderX parameter |
 
 ## Requirements
 
