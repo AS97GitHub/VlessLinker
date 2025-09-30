@@ -35,6 +35,8 @@ chmod +x vlesslinker.py
 
 ## Usage
 
+> On Windows, you can use either `python` or `py` to run the script, depending on your Python installation.
+
 ### Windows
 Try one of these commands:
 
