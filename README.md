@@ -44,12 +44,6 @@ Try one of these commands:
 python vlesslinker.py
 ```
 
-or
-
-```cmd
-py vlesslinker.py
-```
-
 ### Linux/macOS
 
 ```bash
