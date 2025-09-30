@@ -13,17 +13,45 @@ A simple Python tool for converting between **VLESS URLs**, **VPN URLs**, and **
 
 ## Installation
 
-1. Download the `vlesslinker.py` file
-2. Make it executable (Linux/macOS):
+### 1. Download the file
+Download the `vlesslinker.py` file to your computer.
+
+### 2. Install Python (if not installed)
+- **Windows**: Download from [python.org](https://www.python.org/downloads/) and install
+- **Linux/macOS**: Usually pre-installed
+
+### 3. Make executable (Linux/macOS - Optional)
+Only needed if you want to run the script as `./vlesslinker.py`:
+
 ```bash
 chmod +x vlesslinker.py
 ```
 
 ## Usage
 
-### Run the program:
+### Windows
+Try one of these commands:
+
+```cmd
+python vlesslinker.py
+```
+
+or
+
+```cmd
+py vlesslinker.py
+```
+
+### Linux/macOS
+
 ```bash
 python3 vlesslinker.py
+```
+
+**Alternative** (if you made it executable with `chmod +x`):
+
+```bash
+./vlesslinker.py
 ```
 
 ### What you can convert:
