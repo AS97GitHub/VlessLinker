@@ -20,7 +20,7 @@ Just download and run the .exe file directly.
 ### Option 2: Python Script (All Platforms)
 
 ### 1. Download the file
-Download the `vlesslinker.py` file to your computer.
+Download the [vlesslinker.py](https://github.com/AS97GitHub/VlessLinker/raw/main/vlesslinker.py) file to your computer.
 
 ### 2. Install Python (if not installed)
 - **Windows**: Download from [python.org](https://www.python.org/downloads/) and install
