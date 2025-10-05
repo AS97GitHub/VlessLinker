@@ -14,7 +14,7 @@ A simple Python tool for converting between **VLESS URLs**, **VPN URLs**, and **
 ## Installation
 
 ### Option 1: Windows Executable (Easiest)
-Download the ready-to-use `vlesslinker.exe` file - no Python installation required!
+Download the ready-to-use [vlesslinker.exe](https://github.com/AS97GitHub/VlessLinker/releases/download/v1.0/vlesslinker.exe) file - no Python installation required!
 Just download and run the .exe file directly.
 
 ### Option 2: Python Script (All Platforms)
